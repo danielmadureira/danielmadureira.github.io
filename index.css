@@ -1,0 +1,54 @@
+html, body {
+    font-family: 'EB Garamond', Georgia, 'Times New Roman', Times, serif;
+}
+
+.blank-box {
+    display: none;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.content {
+    width: 100%;
+    padding: 30px;
+    text-align: right;
+}
+
+.introduction {
+    margin-bottom: 3em;
+}
+
+.introduction p {
+    margin-bottom: 0;
+    font-size: 36px;
+    font-weight: 0;
+}
+
+.introduction small {
+    font-size: 16px;
+}
+
+.introduction small a {
+    color: inherit;
+}
+
+.link-wrapper {
+    margin: 8px 0;
+}
+
+.link-wrapper a {
+    text-decoration: none;
+    font-size: 24px;
+    color: inherit;
+}
+
+@media (min-width: 680px) {
+    .blank-box {
+        display: block;
+    }
+}
